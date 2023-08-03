@@ -1,2 +1,2 @@
 # Parkinsons-Disease-Prediction
-A model predicting the patient's infection status of Parkinson's Disease
+This data science projects aims to predict the presence of Parkinson's disease in the individuals.

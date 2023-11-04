@@ -1,0 +1,17 @@
+.inputfield{
+    border:none;
+    border-radius: 10px;
+}
+
+#submitbtn{
+    display: flex;
+    width:100px; 
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color:white;
+}

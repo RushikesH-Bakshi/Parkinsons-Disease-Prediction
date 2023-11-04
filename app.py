@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import os
 import jsonify
 import requests
-import pickle
+import joblib
 import numpy as np
 import sklearn
 
@@ -10,7 +10,7 @@ TEMPLATE_DIR = os.path.abspath("./templates")
 STATIC_DIR = os.path.abspath("./static")
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
-model = pickle.load(open("ParkinsonsDiseaseModel.pkl", "rb"))
+model = joblib.load(open("ParkinsonsDiseaseModel.joblib", "rb"))
 print("Model loaded successfully")
 
 
